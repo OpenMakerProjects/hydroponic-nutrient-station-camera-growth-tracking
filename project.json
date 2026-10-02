@@ -1,0 +1,21 @@
+{
+  "id": 130,
+  "title": "Hydroponic Nutrient Station Camera Growth Tracking",
+  "repository_slug": "hydroponic-nutrient-station-camera-growth-tracking",
+  "category": "Smart Agriculture",
+  "platform": "STM32",
+  "platform_family": "arduino",
+  "difficulty": "Intermediate",
+  "estimated_hours": 32,
+  "connectivity": "LoRa",
+  "components": [
+    "SHT31",
+    "LoRa module",
+    "EC sensor"
+  ],
+  "scope": "Build a smart agriculture prototype that uses SHT31, LoRa module, EC sensor to capture repeatable crop-growth images. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Camera Growth Tracking demonstration with repeatable test steps",
+  "mode": "edge_classification",
+  "entrypoint": "firmware/hydroponic-nutrient-station-camera-growth-tracking/hydroponic-nutrient-station-camera-growth-tracking.ino",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
